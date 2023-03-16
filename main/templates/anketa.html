@@ -1,0 +1,53 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/anketa.css' %}">
+</head>
+<body>
+    <td><a href="{% url 'index.html'  %}"></a>Главная</td>
+    <div class="card">
+        <img class="card-photo" src="./image-rectangle_600_x.jpg" alt="Ravshanbek">
+        <h1 class="card-title" >Areshaka Osh</h1>
+        <div class="card-text">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, dignissimos incidunt.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+        </div>
+            <h2 class="card-subtitle">Навыки</h2>
+            <ul class="card-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>Pythone</li>
+            </ul>
+            <h2 class="card-subtitle">Контакты</h2>
+            <p>Телефон <a href="tel:+996225131256">+996225131256</a></p>
+            <p>Email <a href="Areshka@smail.com">Areshka@smail.com</a></p>
+    </div>
+
+    <h1 class="title"><s> Helo world</s></h1>
+    <p>Lorem ipsum <b>nerg wreg woritg</b> dolor sit amet consectetur adipisicing elit. <i>ferioktg wretg4wertg</i> <br> Commodi, <u>fowertg fwersdg wre stg ertg</u> qui voluptate? Cum dolor soluta consectetur quod aperiam id enim ea?</p>
+    <h2 class="title">HTML5 CSS</h2>
+
+    <ul>
+        <li>Пунк 1</li>
+        <li>Пунк 2</li>
+        <li>Пунк 3</li>
+    </ul>
+    
+    <ol>
+        <li>Пунк 1</li>
+        <li>Пунк 2</li>
+        <li>Пунк 3</li>
+    </ol>
+    
+    
+</body>
+</html>

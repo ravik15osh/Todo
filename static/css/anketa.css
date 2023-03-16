@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(177, 204, 204);
+    font-family: tahoma;
+    line-height: 1.5;
+}
+.title {
+    font-size: 40px;
+    color: rgb(16, 179, 51);
+}
+.card {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 5px 10px #2a695f;
+    border-radius: 10px;
+}
+
+.card-photo {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.card-title {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(46, 70, 173);
+}
+.card-text {
+    font-size: 14px;
+}
+.card-subtitle {
+    font-size: 18px;
+    color: rgb(63, 106, 201);
+}
+.card-list {
+    padding-left: 0;
+    list-style-position: inside;
+    font-size: 14px;
+    
+}
